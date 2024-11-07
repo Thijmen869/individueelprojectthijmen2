@@ -1,0 +1,215 @@
+body{
+    background: linear-gradient(#dde6a2 35%, #96a342);
+    font-family: myFirstFont;
+    margin-bottom: 27%;
+}
+footer nav{
+    width: 88.5%;
+    margin-top: 13%;
+}
+footer nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: -10%;
+}
+footer nav ul li{
+    padding: 7px 14px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 12%;
+    list-style-type: none;
+    transition: 0.5s;
+}
+footer nav ul li a{
+    color:white; 
+    transition: 0.25s;
+}
+footer nav ul li a:hover{
+color: #000000;
+}
+footer nav ul li:hover{
+    background-color: #dde6a2;
+    border-color: #0d6d1a;
+    transform: scale(1.12);
+}
+main p{
+    text-align: center;
+}
+header img{
+    display: flex;
+    margin: 0 auto;
+    width: 29%;
+    padding: 4%;
+}
+main{
+    border-radius: 10%;
+    background: linear-gradient(#286331 33%,#2a8137 65%,#0d6d1a 70%);
+    padding: 5%;
+    border-style: solid;
+    border-color: chartreuse;
+}
+main h1{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    text-align: center;
+    color: #dde6a2;
+}
+main img{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+main h2{
+    text-align: center;
+    color: #dde6a2;
+}
+main h3{
+    text-align: center;
+    color: #dde6a2;
+}
+footer{
+    height: 10%;
+    width: 95%;
+    background: linear-gradient(#dde6a2 0%,#b4bb8a 51%,#adb47c 75%);
+    color: #000000;
+    border-style:double;
+    position: fixed;
+    bottom: 0%;
+}
+main .producten img{
+    width: 60%;
+    margin-right: -14%;
+}
+main .producten p{
+    text-align: left;
+}
+main .Overons img{
+    width: 50%;
+}
+main .Overons p{
+    margin-right: -14%;
+    text-align: right;
+}
+article{
+    background: linear-gradient(#96744c 33%, #856540 52%, #b38a5c 80%);
+    margin-top: 5%;
+    padding: 5%;
+    width: 88%;
+    border-radius: 10%;
+    border-style:solid;
+    border-color: #CF9E00;
+}
+article img{
+    width: 50%;
+}
+article .producten,.Overons{
+    display: flex;
+    width: 84%;
+}
+article a{
+    background-color:#dde6a2;
+    color: black;
+    border-radius: 20%;
+    transition: 0.3s;
+    padding: 1%;
+}
+article a:hover{
+    background-color: #4c9255;
+    border-style: solid;
+    border-color: #215529;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Prociono-Regular.ttf);
+}
+.leesmeer{
+    margin-left: 72%
+}
+.productenlijst{
+    border-color: #96a342;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}
+.productenlijst nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -13%;
+    width: 100%;
+}
+.productenlijst nav ul> li{
+    flex: 1 1 80px;
+    padding: 2%;
+}
+.productenlijst nav ul li{
+    list-style-type: none;
+    transition: 0.5s;
+}
+.productenlijst nav ul li:hover{
+    transform: scale(1.31);
+    border-color: #286331;
+}
+.pasta{
+    border-color: #adb47c;
+    border-style: solid;
+    border-radius: 15%;
+    padding: 5%;
+    background: linear-gradient(#bfc596 33%,#c7cea2 51%,#dde6a2 75%);
+    text-align: center;
+    transition: 0.3s;
+}
+.rijst{
+    border-color: #5e471c;
+    border-style: solid;
+    border-radius: 15%;
+    padding: 5%;
+    background: linear-gradient(#aa9047 33%,#a88831 51%,#96862e 75%);
+    text-align: center;
+    transition: 0.3s;
+}
+.zaden{
+    border-color: #0d220b;
+    border-style: solid;
+    border-radius: 15%;
+    padding: 5%;
+    background: linear-gradient(#0f4e1a 33%,#205015 51%,#106325 75%);
+    text-align: center;
+    transition: 0.3s;
+}
+.thee{
+    border-color: #334992;
+    border-style: solid;
+    border-radius: 15%;
+    padding: 5%;
+    background: linear-gradient(#4c8697 33%,#6293b1 51%,#78b7c7 75%);
+    text-align: center;
+    transition: 0.3s;
+}
+.graan{
+    border-color: #279230;
+    border-style: solid;
+    border-radius: 15%;
+    padding: 5%;
+    background: linear-gradient(#409b34 33%,#4fa544 51%,#54cf54 75%);
+    text-align: center;
+    transition: 0.3s;
+}
+.vruchten{
+    border-color: #507c4e;
+    border-style: solid;
+    border-radius: 15%;
+    padding: 5%;
+    background: linear-gradient(#5D8F5B 33%,#72a870 51%,#7db87b 75%);
+    text-align: center;
+    transition: 0.3s;
+}
+main section .wisselwaar{
+    display: flex;
+}
+main section .wisselwaar p{
+    text-align: left;
+}
+main section .wisselwaar img{
+    width: 40%;
+}
